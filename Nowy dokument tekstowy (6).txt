@@ -1,0 +1,82 @@
+function onEdit(e) {
+  var allSheetTabs,i,L,thisSheet,thisSheetName,sheetsToExclude,value;
+  // var sheetsToExclude = ["II_Polrocze","I_Polrocze","Kierowcy","Szablon","Instrukcja"];
+  sheetsToExclude = ['II_Polrocze','I_Polrocze','Kierowcy','Szablon','Instrukcja'];
+
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  allSheetTabs = ss.getSheets();
+  L = allSheetTabs.length;
+  // ilosc zakladek
+// Logger.log(L);
+  for (i=0;i<L;i++) {
+    thisSheet = allSheetTabs[i];
+    // po kolei zakladki
+    
+    thisSheetName = thisSheet.getName();
+    // nazwa zakladki
+
+    //continue to loop if this sheet is one to exclude
+    // if (sheetsToExclude.indexOf("II_Polrocze") === 0) {
+    if (sheetsToExclude.indexOf(thisSheetName) > -1) {
+    
+
+
+// console.log(thisSheetName)
+  const row = e.range.getRow();
+  const col = e.range.getColumn();
+  const as = e.source.getActiveSheet();
+  if(col == 11  && row > 5 && !as.getRange(row,col).getValue()=='') {  
+    const row_new = as.getRange(row,1,1,col);
+    row_new.copyTo(as.getRange(as.getLastRow()+1,1,1,col));
+    as.deleteRow(row);
+  }
+  }
+  }
+  }
+
+
+  function onEdit(e) {
+  // let sheet = SpreadsheetApp.getActiveSpreadsheet();
+  // pobieranie
+  // let headers = sheet.getRange('A1:F1');
+  // pobieram przedzial
+  
+
+  var allSheetTabs,i,L,thisSheet,thisSheetName,sheetsToExclude,value;
+  // deklaracja
+
+  sheetsToExclude = ['II_Polrocze','I_Polrocze','Kierowcy','Szablon','Instrukcja'];
+  // do wykluczenia
+
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  // aktywny arkusz
+
+  allSheetTabs = ss.getSheets();
+  // pobieranie all zakladek w arkuszu
+
+  L = allSheetTabs.length;
+  // ilosc zakladek
+
+  for (i=0;i<L;i++) {
+    thisSheet = allSheetTabs[i];
+    // po kolei zakladki, nie wiem po co to
+
+    thisSheetName = thisSheet.getName();
+    // nazwa zakladki
+
+    //continue to loop if this sheet is one to exclude
+    if (sheetsToExclude.indexOf(thisSheetName) > -1) {
+    //  {continue;}
+
+
+  const row = e.range.getRow();
+  const col = e.range.getColumn();
+  const as = e.source.getActiveSheet();
+  if(col == 11  && row > 5 && !as.getRange(row,col).getValue()=='') {  
+    const row_new = as.getRange(row,1,1,col);
+    row_new.copyTo(as.getRange(as.getLastRow()+1,1,1,col));
+    as.deleteRow(row);
+        }
+      }
+    }
+  }
