@@ -8,6 +8,8 @@
 
 - 🌱 I’m currently learning **Node.js**
 
+- 📫 How to reach me **krystian1wojtowicz@gmail.com**
+
 - ⚡ Fun fact **It is the only one ;)**
 
 <h3 align="left">Connect with me:</h3>
