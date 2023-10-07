@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **Node.js**
  -->
-- 📫 How to reach me **krystian1wojtowicz@gmail.com or krystianwojtowicz192@gmail.com**
+- 📫 How to reach me **krystian1wojtowicz@gmail.com or krystianwojtowicz1992@gmail.com**
 
 - ⚡ Fun fact **It is the only one ;)**
 
