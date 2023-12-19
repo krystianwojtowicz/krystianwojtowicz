@@ -4,11 +4,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=krystianwojtowicz&label=Profile%20views&color=0e75b6&style=flat" alt="krystianwojtowicz" /> </p>
 
-<!-- - 🔭 I’m currently working on [blog-api](https://github.com/krystianwojtowicz/blog-api)
-
 - 🌱 I’m currently learning **Node.js**
  -->
-- 📫 How to reach me **krystian1wojtowicz@gmail.com or krystianwojtowicz1992@gmail.com**
+- 📫 How to reach me **krystianwojtowicz1992@gmail.com**
 
 - ⚡ Fun fact **It is the only one ;)**
 
