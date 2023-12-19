@@ -4,11 +4,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=krystianwojtowicz&label=Profile%20views&color=0e75b6&style=flat" alt="krystianwojtowicz" /> </p>
 
-- 🌱 I’m currently learning **Node.js**
- -->
 - 📫 How to reach me **krystianwojtowicz1992@gmail.com**
-
-- ⚡ Fun fact **It is the only one ;)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
